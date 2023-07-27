@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jbehave-maven-junit4" />
+        <module name="jbehave-maven-junit5" />
+        <module name="cucumber5-maven-testng" />
+        <module name="cucumber7-maven-junit5" />
+        <module name="cucumber4-maven-testng" />
+        <module name="cucumber6-maven-junit5" />
+        <module name="cucumber7-maven-junit4" />
+        <module name="cucumber6-maven-junit4" />
+        <module name="cucumber6-maven-testng" />
+        <module name="maven-junit4" />
+        <module name="maven-junit5" />
+        <module name="cucumber4-maven-junit4" />
+        <module name="jbehave-maven-testng" />
+        <module name="cucumber5-maven-junit5" />
+        <module name="cucumber5-maven-junit4" />
+        <module name="maven-testng" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="maven-junit5" options="-parameters" />
+    </option>
+  </component>
+</project>
